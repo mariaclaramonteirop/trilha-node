@@ -14,5 +14,9 @@
     "api"
   ],
   "author": "Maria Clara Monteiro",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "5.1.7"
+  },
+  "type": "module"
 }
