@@ -1,4 +1,4 @@
-# Trilha Node
+# Trilha Node - TIC em Trilhas
 
 Este repositório contém o código para uma API básica construída com Node.js.
 
