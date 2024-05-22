@@ -1,7 +1,14 @@
 import http from 'http';
 import fs from 'fs';
-import { sqlite3 } from 'sqlite3';
+import sqlite3 from 'sqlite3';
 
+const db = new sqlite3.Database('./tic.db', (erro)=>{
+    if (erro) {
+        console.log('Falha ao inicializar o banco de dados');
+        return;
+    }
+    console.log('Banco de Dados inicializado');
+});
 
 fs.writeFile('./mensagem.txt', 'Olá Maria!','utf-8', (error)=> {
     if (error) {
