@@ -23,10 +23,10 @@ Este projeto demonstra a implementação de uma API simples usando Node.js. Serv
    npm install
    ```
 4. Instale o nodemon globalmente (se ainda não tiver instalado):
-
-```sh
-npm install -g nodemon
-```
+   
+   ```sh
+   npm install -g nodemon
+   ```
 
 ### Uso
 
