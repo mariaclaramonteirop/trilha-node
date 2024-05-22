@@ -1,2 +1,2 @@
-#Ignorar Arquivo de mensagem
-mensagem.txt
+#Ignorar arquivos txt
+*.txt
