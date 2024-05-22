@@ -34,6 +34,12 @@ Este projeto demonstra a implementação de uma API simples usando Node.js. Serv
    ```sh
    npm start
    ```
+- OU Se tiver instalado o `nodemon`
+
+   ```sh
+   npm start:dev
+   ```
+   
 2. A API estará rodando em `http://localhost:3000`.
 
 ### Consumindo a API
@@ -42,7 +48,7 @@ Para consumir a API, você pode usar o aplicativo de cliente HTTP como o [Postma
 
 #### Exemplo com Postman
 
-1. Baixe e instale o [Postman](https://www.postman.com/downloads/).
+1. Baixe e instale o [Postman](https://www.postman.com/downloads/) ou [Insomnia](https://insomnia.rest/download).
 2. Abra o Postman e crie uma nova requisição.
 3. Configure a requisição para `GET` e insira a URL `http://localhost:3000/seu-endpoint`, ou requisição que desejar executar.
 4. Clique em `Send` para enviar a requisição e visualizar a resposta da API.
