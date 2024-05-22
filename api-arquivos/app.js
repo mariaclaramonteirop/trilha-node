@@ -3,7 +3,7 @@ import fs from 'fs';
 import rotas from './routes.js';
 
 
-fs.writeFile('./mensagem.txt', 'Olá Maria!','utf-8', (error)=> {
+fs.writeFile('./mensagem.txt', 'Olá! 🚀' ,'utf-8', (error)=> {
     if (error) {
         console.error('Falha ao escrever o Arquivo!', error);
         return;
