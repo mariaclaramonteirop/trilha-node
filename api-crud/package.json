@@ -15,6 +15,7 @@
   "author": "Maria Clara Monteiro",
   "license": "ISC",
   "dependencies": {
+    "sequelize": "^6.37.3",
     "sqlite3": "^5.1.7"
   },
   "type": "module"
